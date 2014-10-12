@@ -9,7 +9,7 @@
 
             var Timeago = {
                     getTimeAgoText: function (datetime) {
-                        return moment(datetime, 'YYYY-MM-DD HH:mm:ss').fromNow();
+                        return moment(datetime).fromNow();
                     },
             
                     refresh: function (element, datetime) {
